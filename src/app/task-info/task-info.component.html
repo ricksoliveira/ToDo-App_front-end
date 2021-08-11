@@ -1,0 +1,76 @@
+
+<h2>Task Details</h2> 
+
+<hr/>
+<br/>
+<div *ngIf="task">
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-2">
+        <label><b>Name: </b></label>
+      </div>
+      <div class="col col-sm-4">
+        {{task.name}}
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-2">
+        <label><b>Description: </b></label>
+      </div>
+      <div class="col col-sm-4">
+        {{task.description}}
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-2">
+        <label><b>Start Date: </b></label>
+      </div>
+      <div class="col col-sm-4">
+        {{task.startDate}}
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-2">
+        <label><b>Due Date: </b></label>
+      </div>
+      <div class="col col-sm-4">
+        {{task.dueDate}}
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-2">
+        <label><b>Urgency: </b></label>
+      </div>
+      <div class="col col-sm-4">
+        {{task.urgency}}
+      </div>
+    </div>
+  </div>
+
+<br/>
+<hr/>
+<br>
+
+<button (click)="list()" class="btn btn-primary">Back to Task List</button>
+<br><br/>

@@ -1,0 +1,29 @@
+#description{
+    width: 700px;
+}
+
+#name{
+    width: 300px;
+}
+
+#urgency, #startDate, #dueDate{
+    width: 200px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border: solid gray 1px;
+}
+
+.btn{
+    margin-right: 50px;
+    margin-left: 35px;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    transition: 0.15s all ease-in-out;
+}

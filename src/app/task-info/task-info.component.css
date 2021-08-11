@@ -1,0 +1,8 @@
+.btn:hover{
+    transform: scale(1.2);
+    transition: 0.15s all ease-in-out;
+}
+
+.btn{
+    margin-left: 25px;
+}

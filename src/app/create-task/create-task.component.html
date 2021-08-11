@@ -1,0 +1,53 @@
+<h2>Create New Task</h2>
+
+<hr>
+
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="task.name" name="name">
+    </div>
+
+    <br>
+
+    <div class="form-group">
+      <label for="name">Description</label>
+      <input type="text" class="form-control" id="description" required [(ngModel)]="task.description" name="description">
+    </div>
+
+    <br>
+
+    <div class="form-group">
+      <label for="name">Start Date</label>
+      <input type="text" class="form-control" id="startDate" required [(ngModel)]="task.startDate" name="startDate">
+    </div>
+
+    <br>
+
+    <div class="form-group">
+      <label for="name">Due Date</label>
+      <input required type="text" class="form-control" id="dueDate" required [(ngModel)]="task.dueDate" name="dueDate">
+    </div>
+
+    <br>
+
+    <div class="form-group">
+      <label for="name">Urgency</label>
+      <input type="text" class="form-control" id="urgency" required [(ngModel)]="task.urgency" name="urgency">
+    </div>
+
+    <br><hr><br>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+    
+  </form>
+</div>
+
+<div [hidden]="!submitted">
+  <button class="btn btn-success" (click)="createTask()">Add</button> -->
+</div>
+
+
+
+<br>
