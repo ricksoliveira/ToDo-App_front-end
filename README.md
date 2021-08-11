@@ -1,27 +1,78 @@
-# MeetingRoom
+# To Do App (Front-End)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
+### What is `To Do App (Front-End)` ?
 
-## Development server
+This is the front-end of an application made with `Angular`.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project of the **back-end** of this application can be found **[here](https://github.com/ricksoliveira/ToDo-App_back-end)**.
 
-## Code scaffolding
+To Do app is a simple Task List to keep our lives more organized. 😉
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br/>
 
-## Build
+## What do you need to use it?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> - **NPM**
+> - **Angular** (at least Angular 8)
+> - **Any IDE** (recommended VSCode)
 
-## Running unit tests
+<br/>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## How to install
 
-## Running end-to-end tests
+> 1. Clone this repository with the command:
+> 
+> ```
+> 	git clone https://github.com/ricksoliveira/ToDo-App_front-end.git
+> ```
+> 
+> - Or you can just download it as a `ZIP` file and open the folder within your IDE.
+> 
+> 2. Type the following command inside the VSCode terminal:
+> 
+> ```
+> 	ng serve
+> ```
+> 
+> - Wait the application to be **Compiled Successfully.**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br/>
 
-## Further help
+## How to execute it
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+> Just use the following command inside the VSCode terminal:
+> 
+> ```
+> 	ng serve
+> ```
+
+<br/>
+
+## How to use the application
+
+> To use this application, you have to run the back-end alongside, you can access the repository  **[here](https://github.com/ricksoliveira/ToDo-App_back-end)**.
+>
+> Follow the steps on the **README**.
+>
+> After you successfully connected to the database and the Angular server compiled successfully as well, you can click the Add Task button on the upper left corner:
+>
+> ![image](https://user-images.githubusercontent.com/68413884/128967096-cdd234c5-be84-49e9-a45c-1f49ac11c5a9.png)
+>
+> Create a new task and click Submit:
+>
+> ![image](https://user-images.githubusercontent.com/68413884/128967145-cf3857d8-0f05-428a-b1e9-e61136631f4e.png)
+>
+> ![image](https://user-images.githubusercontent.com/68413884/128967461-907c7e83-57c6-47ad-a8af-a7bb62c26f0f.png)
+>
+> - If nothing appears, reload the page.
+
+<br/>
+
+## Authors
+
+- **Henrique Servidoni de Oliveira** - [LinkedIn](https://www.linkedin.com/in/ricksoliveira/)
+
+
+## Thanks !
+
+> Special thanks to [**DIO**](https://web.digitalinnovation.one/home) and [**Santander**](https://www.santander.com.br) for the full-stack scholarship opportunity.
